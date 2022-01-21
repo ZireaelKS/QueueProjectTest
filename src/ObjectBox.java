@@ -2,8 +2,11 @@
 public class ObjectBox {
 	
 	private Object object;
-    private ObjectBox next;
-    private ObjectBox prev;
+	//элемент после
+    private ObjectBox next = null;
+    
+    //элемент до
+    private ObjectBox prev = null;
  
     public Object getObject() {
         return object;
